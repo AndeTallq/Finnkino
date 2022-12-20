@@ -1,0 +1,82 @@
+body {
+  background-color:#2C3333;
+  padding: 25px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.areas {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  height: 40px;
+  background-color: #A5C9CA;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #2C3333;
+  border: 2px solid #E7F6F2;
+  padding: 5px 10px;
+}
+
+
+.movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.movie {
+  width: 28%;
+  margin-bottom: 40px;
+  background-color: #395B64;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #E7F6F2;
+  transition: ease-in-out 0.3s;
+}
+.movies :hover {
+  background-color: #58767e;
+  transition: ease-in-out 0.3s;
+}
+
+.movie img {
+  width:100%;
+  height: auto;
+  display: block;
+  border-radius: 20px 0px 20px 0px;
+  border: 1px solid #E7F6F2;
+}
+
+.movie-container {
+  width: 100%;
+}
+
+.actors {
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: normal !important;
+}
+.plot
+{
+  font-weight: normal !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .movie {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .movie {
+    width: 100%;
+  }
+}
